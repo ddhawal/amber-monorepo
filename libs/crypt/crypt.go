@@ -1,6 +1,6 @@
 package crypt
 
 func Crypt(name string) string {
-	result := "Crypt " + name
+	result := "Crypt ahe mi " + name
 	return result
 }
