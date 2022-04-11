@@ -1,14 +1,14 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
 )
 
 func Hello(name string) string {
-  result := "Hello " + name
-  return result
+	result := "Hello " + name
+	return result
 }
 
 func main() {
-  fmt.Println(Hello("ps"))
+	fmt.Println(Hello("ps"))
 }
