@@ -1,0 +1,29 @@
+{
+  "root": "apps/as",
+  "projectType": "application",
+  "sourceRoot": "apps/as",
+  "version": "1.0.0",
+  "targets": {
+    "build": {
+      "executor": "@nx-go/nx-go:build",
+      "options": {
+        "outputPath": "dist/apps/as",
+        "main": "apps/as/main.go"
+      }
+    },
+    "serve": {
+      "executor": "@nx-go/nx-go:serve",
+      "options": {
+        "main": "apps/as/main.go"
+      }
+    },
+    "test": {
+      "executor": "@nx-go/nx-go:test"
+    },
+    "lint": {
+      "executor": "@nx-go/nx-go:lint"
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["crypt"]
+}

@@ -1,0 +1,15 @@
+{
+  "root": "libs/crypt",
+  "projectType": "library",
+  "sourceRoot": "libs/crypt",
+  "version": "1.0.0",
+  "targets": {
+    "test": {
+      "executor": "@nx-go/nx-go:test"
+    },
+    "lint": {
+      "executor": "@nx-go/nx-go:lint"
+    }
+  },
+  "tags": []
+}
